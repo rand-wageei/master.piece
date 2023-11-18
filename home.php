@@ -103,8 +103,8 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="content">
          <!-- <span>don't panic, go organice</span> -->
-         <h3>Reach For A Healthier You With Organic Foods</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto natus culpa officia quasi, accusantium explicabo?</p>
+         <h3>Reach For A Dessert With Delicious Taste</h3>
+         <p>And Share It With Your Family , Your Friend , With The People You Most Love</p>
          <a href="shop.php" class="btn">Shop Now</a>
       </div>
 
@@ -152,7 +152,7 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="products">
 
-   <h1 class="title">latest products</h1>
+   <h1 class="title">latest Desserts</h1>
 
    <div class="box-container">
 

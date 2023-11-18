@@ -36,23 +36,33 @@ if(!isset($user_id)){
    <div class="row">
 
       <div class="box">
-         <img src="images/about-img-1.png" alt="">
-         <h3>why choose us?</h3>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, a quod, quis alias eius dignissimos pariatur laborum dolorem ad ullam iure, consequatur autem animi illo odit! Atque quia minima voluptatibus.</p>
-         <a href="contact.php" class="btn">contact us</a>
+      <h1>About Us</h1>
+         <img src="images/about.jpg" alt="">
+    
+    <p>Welcome to SUGER Desserts, where every bite tells a story of passion, craftsmanship, and a love for all things sweet. Our journey began with a simple idea – to create desserts that not only satisfy your sweet tooth but also leave a lasting memory.</p>
+
+    <p>At SUGER Desserts, we believe in the artistry of dessert making. Our team of talented bakers and pastry chefs meticulously craft each dessert using only the finest ingredients. From the richness of Belgian chocolate to the sweetness of ripe berries, every element is chosen to create a symphony of flavors in every bite.</p>
+
+    <p>Our commitment to quality extends beyond our ingredients. We take pride in presenting desserts that are not only visually stunning but also a delight to your taste buds. Whether you're celebrating a special occasion or simply craving a sweet escape, our desserts are here to elevate your moments.</p>
+
+    <p>Thank you for being a part of our sweet journey. We invite you to explore our menu, indulge in the decadence, and join us in the celebration of life's sweetest moments.</p>
+
+    <p>Sweet Regards,<br>
+        The SUGER Team</p>
+         <a href="shop.php" class="btn">Our Sweets</a>
       </div>
 
-      <div class="box">
+      <!-- <div class="box">
          <img src="images/about-img-2.png" alt="">
          <h3>what we provide?</h3>
          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, a quod, quis alias eius dignissimos pariatur laborum dolorem ad ullam iure, consequatur autem animi illo odit! Atque quia minima voluptatibus.</p>
          <a href="shop.php" class="btn">our shop</a>
-      </div>
+      </div> -->
 
    </div>
 
 </section>
-
+<!-- 
 <section class="reviews">
 
    <h1 class="title">clients reivews</h1>
@@ -139,7 +149,7 @@ if(!isset($user_id)){
 
    </div>
 
-</section>
+</section> -->
 
 
 

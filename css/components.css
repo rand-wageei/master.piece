@@ -22,7 +22,7 @@
 }
 
 *::selection{
-   background-color: var(--green);
+   background-color: #6a1a69;
    color:var(--white);
 }
 
@@ -166,6 +166,9 @@ section{
    display: flex;
    align-items: center;
    justify-content: center;
+   background-image: url("https://images2.alphacoders.com/105/1057879.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .form-container form{
@@ -203,7 +206,7 @@ section{
 }
 
 .form-container form p a{
-   color:var(--green);
+   color:#6a1a69;
 }
 
 .form-container form p a:hover{
@@ -229,7 +232,7 @@ section{
 }
 
 .header .flex .logo{
-   font-size: 2.5rem;
+   font-size: 3rem;
    color:white;
 }
 
@@ -239,7 +242,7 @@ section{
 
 .header .flex .navbar a{
    margin:0 1rem;
-   font-size: 2rem;
+   font-size: 1.8rem;
    color:white;
 }
 
@@ -276,6 +279,7 @@ section{
 #menu-btn{
    display: none;
 }
+
 
 .header .flex .profile{
    position: absolute;
@@ -467,6 +471,8 @@ color: #f593f4;
 
    #menu-btn{
       display: inline-block;
+      
+      
    }
 
    .header .flex .navbar{

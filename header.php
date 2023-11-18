@@ -16,15 +16,15 @@ if(isset($message)){
 <header class="header">
 
    <div class="flex">
-
-      <a href="admin_page.php" class="logo">SUGER <span>..</span></a>
+   <!-- <img src="images/LOGO 2.png" alt="Italian Trulli" style="width:8rem; height:6rem;  ;"> -->
+      <a href="admin_page.php" class="logo" >SUGER <span>..</span></a>
 
       <nav class="navbar">
-         <a href="home.php">home</a>
-         <a href="shop.php">shop</a>
-         <a href="orders.php">orders</a>
-         <a href="about.php">about</a>
-         <a href="contact.php">contact</a>
+         <a href="home.php">HOME</a>
+         <a href="shop.php">SWEET</a>
+         <a href="orders.php">ORDERS</a>
+         <a href="about.php">ABOUT</a>
+         <a href="contact.php">CONTACT</a>
       </nav>
 
       <div class="icons">
