@@ -36,7 +36,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--green);
+   background-color: #a41aa2;
 }
 
 body{
