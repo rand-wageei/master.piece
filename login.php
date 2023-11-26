@@ -31,11 +31,11 @@ if(isset($_POST['submit'])){
          header('location:home.php');
 
       }else{
-         $message[] = 'no user found!';
+         $message[] = 'No user found!';
       }
 
    }else{
-      $message[] = 'incorrect email or password!';
+      $message[] = 'Incorrect email or password!';
    }
 
 }

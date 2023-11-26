@@ -29,14 +29,14 @@ if(isset($_POST['update_profile'])){
 
    if(!empty($image)){
       if($image_size > 2000000){
-         $message[] = 'image size is too large!';
+         $message[] = 'Image size is too large!';
       }else{
          $update_image = $conn->prepare("UPDATE `users` SET image = ? WHERE id = ?");
          $update_image->execute([$image, $user_id]);
          if($update_image){
             move_uploaded_file($image_tmp_name, $image_folder);
             unlink('uploaded_img/'.$old_image);
-            $message[] = 'image updated successfully!';
+            $message[] = 'Image updated successfully!';
          };
       };
    };
@@ -51,13 +51,13 @@ if(isset($_POST['update_profile'])){
 
    if(!empty($update_pass) AND !empty($new_pass) AND !empty($confirm_pass)){
       if($update_pass != $old_pass){
-         $message[] = 'old password not matched!';
+         $message[] = 'Old password not matched!';
       }elseif($new_pass != $confirm_pass){
-         $message[] = 'confirm password not matched!';
+         $message[] = 'Confirm password not matched!';
       }else{
          $update_pass_query = $conn->prepare("UPDATE `users` SET password = ? WHERE id = ?");
          $update_pass_query->execute([$confirm_pass, $user_id]);
-         $message[] = 'password updated successfully!';
+         $message[] = 'Password updated successfully!';
       }
    }
 

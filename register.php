@@ -23,20 +23,20 @@ if(isset($_POST['submit'])){
    $select->execute([$email]);
 
    if($select->rowCount() > 0){
-      $message[] = 'user email already exist!';
+      $message[] = 'User email already exist!';
    }else{
       if($pass != $cpass){
-         $message[] = 'confirm password not matched!';
+         $message[] = 'Confirm password not matched!';
       }else{
          $insert = $conn->prepare("INSERT INTO `users`(name, email, password, image) VALUES(?,?,?,?)");
          $insert->execute([$name, $email, $pass, $image]);
 
          if($insert){
             if($image_size > 2000000){
-               $message[] = 'image size is too large!';
+               $message[] = 'Image size is too large!';
             }else{
                move_uploaded_file($image_tmp_name, $image_folder);
-               $message[] = 'registered successfully!';
+               $message[] = 'Registered successfully!';
                header('location:login.php');
             }
          }
