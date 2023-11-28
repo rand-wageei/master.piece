@@ -420,7 +420,7 @@ height: 70rem;
 
 .wishlist .box-container .box .price{
    padding:1rem 0;
-   color:var(--red);
+   color:#b53fb3;
    font-size: 2.5rem;
 }
 
@@ -505,7 +505,7 @@ height: 70rem;
 }
 
 .wishlist .wishlist-total p span{
-   color:var(--red);
+   color:#b53fb3;
 }
 
 .shopping-cart .box-container{
@@ -528,7 +528,7 @@ height: 70rem;
 
 .shopping-cart .box-container .box .price{
    padding:1rem 0;
-   color:var(--red);
+   color:#b53fb3;
    font-size: 2.5rem;
 }
 
@@ -601,7 +601,7 @@ height: 70rem;
 }
 
 .shopping-cart .box-container .sub-total span{
-   color:var(--red);
+   color:#b53fb3;
 }
 
 .shopping-cart .cart-total{
@@ -623,7 +623,7 @@ height: 70rem;
 }
 
 .shopping-cart .cart-total p span{
-   color:var(--red);
+   color:#b53fb3;
 }
 
 .display-orders{

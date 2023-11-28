@@ -146,7 +146,7 @@ section{
 .empty{
    padding:1.5rem;
    background: var(--white);
-   color:var(--red);
+   color:#a41aa2;
    border-radius: .5rem;
    border:var(--border);
    font-size: 2rem;

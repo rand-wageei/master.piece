@@ -140,6 +140,7 @@ if(isset($_GET['delete'])){
          <a href="admin_products.php?delete=<?= $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('delete this product?');">delete</a>
       </div>
    </div>
+   
    <?php
       }
    }else{
@@ -147,8 +148,10 @@ if(isset($_GET['delete'])){
    }
    ?>
 
+
    </div>
 
+   
 </section>
 
 
