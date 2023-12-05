@@ -20,7 +20,7 @@ if(isset($_POST['order'])){
    $email = filter_var($email, FILTER_SANITIZE_STRING);
    $method = $_POST['method'];
    $method = filter_var($method, FILTER_SANITIZE_STRING);
-   $address = 'flat no. '. $_POST['flat'] .' '. $_POST['street'] .' '. $_POST['city'] .' '. $_POST['state'] .' '. $_POST['country'] .' - '. $_POST['pin_code'];
+   $address = 'flat no. '. $_POST['flat'] .' '. $_POST['street'] .' '. $_POST['city']  .' - '. $_POST['pin_code'];
    $address = filter_var($address, FILTER_SANITIZE_STRING);
    $placed_on = date('d-M-Y');
 
@@ -88,14 +88,14 @@ if(isset($_POST['order'])){
             $cart_total_price = ($fetch_cart_items['price'] * $fetch_cart_items['quantity']);
             $cart_grand_total += $cart_total_price;
    ?>
-   <p> <?= $fetch_cart_items['name']; ?> <span>(<?= '$'.$fetch_cart_items['price'].'/- x '. $fetch_cart_items['quantity']; ?>)</span> </p>
+   <p> <?= $fetch_cart_items['name']; ?> <span>(<?= 'JD'.$fetch_cart_items['price'].'/- x '. $fetch_cart_items['quantity']; ?>)</span> </p>
    <?php
     }
    }else{
       echo '<p class="empty">your cart is empty!</p>';
    }
    ?>
-   <div class="grand-total">grand total : <span>$<?= $cart_grand_total; ?>/-</span></div>
+   <div class="grand-total">grand total : <span>JD<?= $cart_grand_total; ?>/-</span></div>
 </section>
 
 <section class="checkout-orders">
@@ -128,24 +128,24 @@ if(isset($_POST['order'])){
          </div>
          <div class="inputBox">
             <span>address line 01 :</span>
-            <input type="text" name="flat" placeholder="e.g. flat number" class="box" required>
+            <input type="text" name="flat" placeholder=" flat number" class="box" required>
          </div>
          <div class="inputBox">
             <span>address line 02 :</span>
-            <input type="text" name="street" placeholder="e.g. street name" class="box" required>
+            <input type="text" name="street" placeholder=" street name" class="box" required>
          </div>
          <div class="inputBox">
             <span>city :</span>
-            <input type="text" name="city" placeholder="e.g. mumbai" class="box" required>
+            <input type="text" name="city" placeholder=" aqaba" class="box" required>
          </div>
-         <div class="inputBox">
+         <!-- <div class="inputBox">
             <span>state :</span>
             <input type="text" name="state" placeholder="e.g. maharashtra" class="box" required>
          </div>
          <div class="inputBox">
             <span>country :</span>
             <input type="text" name="country" placeholder="e.g. India" class="box" required>
-         </div>
+         </div> -->
          <div class="inputBox">
             <span>pin code :</span>
             <input type="number" min="0" name="pin_code" placeholder="e.g. 123456" class="box" required>

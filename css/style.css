@@ -644,7 +644,7 @@ height: 70rem;
 }
 
 .display-orders p span{
-   color:var(--red);
+   color:#832181
 }
 
 .display-orders .grand-total{
@@ -654,7 +654,7 @@ height: 70rem;
 }
 
 .display-orders .grand-total span{
-   color:var(--red);
+   color:#832181;
 }
 
 .checkout-orders form{
@@ -667,7 +667,7 @@ height: 70rem;
 
 .checkout-orders form h3{
    border-radius: .5rem;
-   background-color: var(--black);
+   background-color: #6a1a69;
    color:var(--white);
    padding:1.5rem 1rem;
    text-align: center;

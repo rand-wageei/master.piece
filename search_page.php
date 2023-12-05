@@ -98,7 +98,7 @@ if(isset($_POST['add_to_cart'])){
 <section class="search-form">
 
    <form action="" method="POST">
-      <input type="text" class="box" name="search_box" placeholder="search products...">
+      <input type="text" class="box" name="search_box" placeholder="search sweets...">
       <input type="submit" name="search_btn" value="search" class="btn">
    </form>
 
