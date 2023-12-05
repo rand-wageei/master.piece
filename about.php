@@ -37,7 +37,7 @@ if(!isset($user_id)){
 
       <div class="box">
       <h1>About Us</h1>
-         <img src="images/about.jpg" alt="">
+         <img src="images/ABOUT1.jpg" alt="">
     
     <p>Welcome to SUGER Desserts, where every bite tells a story of passion, craftsmanship, and a love for all things sweet. Our journey began with a simple idea – to create desserts that not only satisfy your sweet tooth but also leave a lasting memory.</p>
 
