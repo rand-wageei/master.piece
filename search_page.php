@@ -102,6 +102,7 @@ if(isset($_POST['add_to_cart'])){
       <input type="submit" name="search_btn" value="search" class="btn">
    </form>
 
+    
 </section>
 
 <?php

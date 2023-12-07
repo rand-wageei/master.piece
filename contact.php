@@ -65,7 +65,7 @@ if(isset($_POST['send'])){
    <form action="" method="POST">
       <input type="text" name="name" class="box" required placeholder=" Your Name">
       <input type="email" name="email" class="box" required placeholder=" Your Email">
-      <input type="number" name="number" min="0" class="box" required placeholder=" Your Number">
+      <input type="number" name="number" min="0" class="box" required placeholder=" Your Phone Number">
       <textarea name="msg" class="box" required placeholder=" Your Message" cols="30" rows="10"></textarea>
       <input type="submit" value="send message" class="btn" name="send">
    </form>
